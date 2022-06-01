@@ -1,0 +1,17 @@
+{
+    "name":"Open Many Pages",
+    "description":"Paste all the links in the textbox and click on submit to open them all at once",
+    "version":"1.0",
+    "manifest_version":2,
+    "browser_action":
+    {
+        "default_icon":
+        {
+            "16":"icons/logo_16X16.png",
+            "48":"icons/logo_48X48.png",
+            "128":"icons/logo_128X128.png"
+        },
+        "default_popup":"popup.html"
+    },
+    "permissions":["tabs","storage"]
+}
